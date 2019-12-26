@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj": {}
+    "d:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj": {}
   },
   "projects": {
-    "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj": {
+    "d:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
+        "projectUniqueName": "d:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
         "projectName": "grocery-store-shoping-app",
-        "projectPath": "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
+        "projectPath": "d:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
         "packagesPath": "C:\\Users\\alokn\\.nuget\\packages\\",
-        "outputPath": "D:\\Alok\\grocery-store-shoping-app\\obj\\",
+        "outputPath": "d:\\Alok\\grocery-store-shoping-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alokn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -35,6 +35,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Physical": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
