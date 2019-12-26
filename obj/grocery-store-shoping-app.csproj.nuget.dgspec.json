@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj": {}
+    "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj": {}
   },
   "projects": {
-    "d:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj": {
+    "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
+        "projectUniqueName": "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
         "projectName": "grocery-store-shoping-app",
-        "projectPath": "d:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
+        "projectPath": "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
         "packagesPath": "C:\\Users\\alokn\\.nuget\\packages\\",
-        "outputPath": "d:\\Alok\\grocery-store-shoping-app\\obj\\",
+        "outputPath": "D:\\Alok\\grocery-store-shoping-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alokn\\AppData\\Roaming\\NuGet\\NuGet.Config"

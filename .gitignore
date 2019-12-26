@@ -4,6 +4,4 @@
 /bin/*
 /ui/*
 *.cache
-obj/project.assets.json
-obj/grocery-store-shoping-app.csproj.nuget.dgspec.json
-obj/grocery-store-shoping-app.csproj.nuget.cache
+
