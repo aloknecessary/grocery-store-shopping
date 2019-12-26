@@ -4,4 +4,7 @@
 /bin/*
 /ui/*
 *.cache
+ui/*
 
+*.js
+ui/src/App.js
