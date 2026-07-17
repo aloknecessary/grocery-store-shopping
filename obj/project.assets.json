@@ -1,212 +1,232 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
-      "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
+    "net9.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.0"
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Physical/3.1.0": {
+      "Microsoft.Extensions.FileProviders.Physical/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.0",
-          "Microsoft.Extensions.FileSystemGlobbing": "3.1.0"
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "9.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+          "lib/net9.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+          "lib/net9.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/3.1.0": {
+      "Microsoft.Extensions.FileSystemGlobbing/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+          "lib/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+          "lib/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.2",
-          "System.Runtime.CompilerServices.Unsafe": "4.7.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
-        }
-      },
-      "System.Memory/4.5.2": {
+      "Microsoft.Extensions.Primitives/9.0.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp2.1/_._": {}
+          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.7.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
         },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        "build": {
+          "buildTransitive/net8.0/_._": {}
         }
       }
     }
   },
   "libraries": {
-    "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
-      "sha512": "G3iBMOnn3tETEUvkE9J3a23wQpRkiXZp73zR0XNlicjLFhkeWW1FCaC2bTjrgHhPi2KO6x0BXnHvVuJPIlygBQ==",
+    "Microsoft.Extensions.FileProviders.Abstractions/9.0.0": {
+      "sha512": "uK439QzYR0q2emLVtYzwyK3x+T5bTY4yWsd/k/ZUS9LR6Sflp8MIdhGXW8kQCd86dQD4tLqvcbLkku8qHY263Q==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/3.1.0",
+      "path": "microsoft.extensions.fileproviders.abstractions/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.abstractions.nuspec",
-        "packageIcon.png"
+        "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Physical/3.1.0": {
-      "sha512": "KsvgrYp2fhNXoD9gqSu8jPK9Sbvaa7SqNtsLqHugJkCwFmgRvdz76z6Jz2tlFlC7wyMTZxwwtRF8WAorRQWTEA==",
+    "Microsoft.Extensions.FileProviders.Physical/9.0.0": {
+      "sha512": "3+ZUSpOSmie+o8NnLIRqCxSh65XL/ExU7JYnFOg58awDRlY3lVpZ9A369jkoZL1rpsq7LDhEfkn2ghhGaY1y5Q==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.physical/3.1.0",
+      "path": "microsoft.extensions.fileproviders.physical/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.xml",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Physical.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Physical.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net9.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net9.0/Microsoft.Extensions.FileProviders.Physical.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "microsoft.extensions.fileproviders.physical.3.1.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.9.0.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.physical.nuspec",
-        "packageIcon.png"
+        "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.FileSystemGlobbing/3.1.0": {
-      "sha512": "tK5HZOmVv0kUYkonMjuSsxR0CBk+Rd/69QU3eOMv9FvODGZ2d0SR+7R+n8XIgBcCCoCHJBSsI4GPRaoN3Le4rA==",
+    "Microsoft.Extensions.FileSystemGlobbing/9.0.0": {
+      "sha512": "jGFKZiXs2HNseK3NK/rfwHNNovER71jSj4BD1a/649ml9+h6oEtYd0GSALZDNW8jZ2Rh+oAeadOa6sagYW1F2A==",
       "type": "package",
-      "path": "microsoft.extensions.filesystemglobbing/3.1.0",
+      "path": "microsoft.extensions.filesystemglobbing/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileSystemGlobbing.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileSystemGlobbing.targets",
+        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net9.0/Microsoft.Extensions.FileSystemGlobbing.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "microsoft.extensions.filesystemglobbing.3.1.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.9.0.0.nupkg.sha512",
         "microsoft.extensions.filesystemglobbing.nuspec",
-        "packageIcon.png"
+        "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.1.0": {
-      "sha512": "LEKAnX7lhUhSoIc2XraCTK3M4IU/LdVUzCe464Sa4+7F4ZJuXHHRzZli2mDbiT4xzAZhgqXbvfnb5+CNDcQFfg==",
+    "Microsoft.Extensions.Primitives/9.0.0": {
+      "sha512": "N3qEBzmLMYiASUlKxxFIISP4AiwuPTHF5uCh+2CWSwwzAJiIYx0kBJsS30cp1nvhSySFAVi30jecD307jV+8Kg==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.0",
+      "path": "microsoft.extensions.primitives/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
+        "lib/net8.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net8.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net9.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net9.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.0.nupkg.sha512",
+        "microsoft.extensions.primitives.9.0.0.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
-        "packageIcon.png"
-      ]
-    },
-    "System.Memory/4.5.2": {
-      "sha512": "fvq1GNmUFwbKv+aLVYYdgu/+gc8Nu9oFujOxIjPrsf+meis9JBzTPDL6aP/eeGOz9yPj6rRLUbOjKMpsMEWpNg==",
-      "type": "package",
-      "path": "system.memory/4.5.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.1/_._",
-        "lib/netstandard1.1/System.Memory.dll",
-        "lib/netstandard1.1/System.Memory.xml",
-        "lib/netstandard2.0/System.Memory.dll",
-        "lib/netstandard2.0/System.Memory.xml",
-        "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.2.nupkg.sha512",
-        "system.memory.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Runtime.CompilerServices.Unsafe/4.7.0": {
-      "sha512": "IpU1lcHz8/09yDr9N+Juc7SCgNUz+RohkCQI+KsWKR67XxpFr8Z6c8t1iENCXZuRuNCc4HBwme/MDHNVCwyAKg==",
-      "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
-        "system.runtime.compilerservices.unsafe.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": [
-      "Microsoft.Extensions.FileProviders.Physical >= 3.1.0"
+    "net9.0": [
+      "Microsoft.Extensions.FileProviders.Physical >= 9.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alokn\\.nuget\\packages\\": {}
+    "C:\\Users\\alokn\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
+      "projectUniqueName": "d:\\Repositories\\perosnal-repos\\grocery-store-shopping\\grocery-store-shoping-app.csproj",
       "projectName": "grocery-store-shoping-app",
-      "projectPath": "D:\\Alok\\grocery-store-shoping-app\\grocery-store-shoping-app.csproj",
+      "projectPath": "d:\\Repositories\\perosnal-repos\\grocery-store-shopping\\grocery-store-shoping-app.csproj",
       "packagesPath": "C:\\Users\\alokn\\.nuget\\packages\\",
-      "outputPath": "D:\\Alok\\grocery-store-shoping-app\\obj\\",
+      "outputPath": "d:\\Repositories\\perosnal-repos\\grocery-store-shopping\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\alokn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\alokn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.0"
+        "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
           "projectReferences": {}
         }
       },
@@ -214,14 +234,22 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
-      "netcoreapp3.0": {
+      "net9.0": {
+        "framework": "net9.0",
+        "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Physical": {
             "target": "Package",
-            "version": "[3.1.0, )"
+            "version": "[9.0.0, )"
           }
         },
         "imports": [
@@ -230,10 +258,29 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.17, 9.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.17, 9.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.17, 9.0.17]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.17, 9.0.17]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -242,7 +289,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
